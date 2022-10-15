@@ -1,10 +1,10 @@
 ﻿// Определить номер четверти плоскости, в которой находится точка
 // с координатами Х и У, причем X ≠ 0 и Y ≠ 0
 Console.Write("Введите координату X (не равно 0): ");
-int X = int.Parse(Console.ReadLine());
+int X = int.Parse(Console.ReadLine() ?? "0");
 
 Console.Write("Введите координату Y (не равно 0): ");
-int Y = int.Parse(Console.ReadLine());
+int Y = int.Parse(Console.ReadLine() ?? "0");
 
 if (X > 0 && Y > 0)
 {
